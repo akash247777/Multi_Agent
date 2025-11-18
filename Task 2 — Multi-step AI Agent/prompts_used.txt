@@ -1,0 +1,25 @@
+# Prompt Template 1: Web Search Query
+"Generate a precise Google search query to find authoritative information about: [TOPIC]. Return only the query string."
+
+# Prompt Template 2: Key Point Extraction
+"From the following text, extract exactly 5 key points about [TOPIC]. Each point must be concise (under 15 words), actionable, and 
+evidence-based. Use bullet points. Ignore fluff and opinions."
+
+# Prompt Template 3: Summary Generation
+"Write a 150-word professional summary about [TOPIC] using only the following key points: [KEY_POINTS]. Tone: informative, calm, 
+suitable for educators or school administrators. Do not exceed 150 words."
+
+# Prompt Template 4: Email Formatting
+"Format the following summary as a professional email draft. Include:  
+- To: [Recipient Role, e.g., 'School Principal']  
+- Subject: Clear, benefit-driven  
+- Body: The summary text, properly formatted with line breaks.  
+Do not add signatures or greetings like 'Dear...'. Just output To:, Subject:, Body:."
+
+
+ Why this structure? 
+
+- Search prompt ensures high-quality source retrieval
+- Key point prompt enforces conciseness and avoids hallucination
+- Summary prompt enforces strict word limit
+- Email prompt removes ambiguity in output format

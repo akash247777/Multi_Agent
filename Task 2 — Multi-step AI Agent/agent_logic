@@ -1,0 +1,15 @@
+This agent is designed as a sequential pipeline to transform a broad topic into a ready-to-send professional email.
+Inputs/Outputs:
+
+Step 1 input: topic string → output: raw HTML snippets from search results
+Step 2 input: raw text → output: 5 bullet-point key insights
+Step 3 input: key points → output: 150-word summary
+Step 4 input: summary → output: formatted email with To/Subject/Body
+We use Google Search API (SerpAPI) for real-time web info and Google Gemini for all LLM tasks.
+Error Handling: If search fails, fallback to pre-loaded sample text about AI in education. If Gemini fails, 
+return placeholder text with error log.
+Why effective?
+This design mimics how a human researcher works: gather → extract → synthesize → communicate. 
+It’s modular (easy to swap tools), lightweight (no complex memory), and produces actionable output. 
+The email format ensures immediate usability — no extra editing needed. Perfect for educators, administrators, or EdTech
+l teams needing quick, credible outreach.

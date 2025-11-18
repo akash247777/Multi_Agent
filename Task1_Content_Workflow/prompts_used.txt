@@ -1,0 +1,15 @@
+# Prompt Template 1: Blog Outline
+"Create a blog outline about [TOPIC] with 5-7 bullet points covering main sections. Each bullet should represent a key section of the blog 
+post. Focus on structure and logical flow."
+
+# Prompt Template 2: LinkedIn Post
+"Write a professional LinkedIn post about [TOPIC]. Keep it engaging and informative, suitable for professionals. Include a compelling
+ opening, 2-3 key insights, and a thought-provoking closing question. Limit to 2500 characters."
+
+# Prompt Template 3: Social Media Captions
+"Generate 5 short social media captions about [TOPIC]. Each caption should be under 280 characters, engaging, and suitable for different 
+platforms (Instagram, Twitter, Facebook). Include varied styles: question, statement, quote-style, statistic, and call-to-action."
+
+# Prompt Template 4: Hashtags
+"Provide 15-20 relevant hashtags for content about [TOPIC]. Include a mix of popular, niche, and branded hashtags. Format as a 
+comma-separated list."

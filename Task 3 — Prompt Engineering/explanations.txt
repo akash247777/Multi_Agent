@@ -1,0 +1,12 @@
+1. Content Rewriting
+I structured this to force expansion with constraints (word count, audience, tone) so the LLM doesn’t just paraphrase — it elaborates 
+contextually. By specifying “why now,” “who is affected,” and “what if ignored,” I anchor the output in real-world stakes, reducing generic 
+responses.
+
+2. Carousel Conversion
+The rigid slide structure (Problem→Impact→Solution→Action) creates a storytelling spine. Limiting words per slide forces visual thinking — 
+mimicking how designers draft carousels. Numbering ensures sequence is preserved, preventing disjointed output.
+
+3. Social Media Repurposing
+Platform-specific directives (tone, length, format) prevent the LLM from recycling one style across all channels. By naming the audience 
+and desired outcome (e.g., “spark discussion”), I guide the model toward behavioral intent — not just syntax.

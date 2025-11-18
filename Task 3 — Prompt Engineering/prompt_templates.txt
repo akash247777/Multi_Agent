@@ -1,0 +1,28 @@
+# Prompt Template 1: Content Rewriting (Short → Long)
+Rewrite the following sentence into a detailed, 150–200 word explanatory paragraph.  
+Target audience: Educators and school administrators.  
+Tone: Professional, persuasive, and grounded in real-world impact.  
+Do not use bullet points. Use full sentences with logical flow.  
+Include why this matters now, who is affected, and what happens if it’s ignored.  
+
+Sentence: "[SHORT_TEXT]"
+
+
+# Prompt Template 2: Carousel Conversion (5–7 Slides)
+Convert the following statement into a 6-slide Instagram/LinkedIn carousel.  
+Each slide must:  
+- Be under 12 words in the headline  
+- Include 1–2 sentence supporting text (max 30 words)  
+- Follow a logical narrative: Problem → Impact → Solution → Action  
+- Use a consistent tone: Empowering, clear, and visually suggestive (no emojis)  
+- Number slides clearly: Slide 1/6, Slide 2/6, etc.  
+
+Statement: "[STATEMENT]"
+
+# Prompt Template 3: Social Media Repurposing (LinkedIn, IG, Twitter)
+Repurpose this sentence into 3 platform-specific versions:  
+1. LinkedIn: Professional, insight-driven, 1–2 sentences + question to spark discussion.  
+2. Instagram: Conversational, benefit-focused, under 150 characters. Use 1 emoji.  
+3. Twitter/X: Punchy, urgent, under 280 characters. Start with a hook. Include 3 relevant hashtags.  
+
+Sentence: "[SHORT_TEXT]"

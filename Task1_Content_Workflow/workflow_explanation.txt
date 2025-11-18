@@ -1,0 +1,8 @@
+This workflow automates content creation by taking a single topic and generating a complete content package through sequential 
+AI processing steps. I chose Google’s Gemini API because it offers enterprise-grade generative AI with strong multilingual and
+cultural understanding — especially valuable for context-rich topics like “Future of Learning in India.” Each step uses a dedicated
+prompt template to guide Gemini into producing structured outputs: blog outlines for planning, LinkedIn posts for professional audiences, 
+social captions for engagement, and hashtags for discoverability. The workflow uses the google-generativeai Python library to interact
+with the Gemini API. A key limitation is rate limiting on free API keys and lack of fine-tuned control over output length compared to
+OpenAI. Possible improvements include adding output validation, caching responses, integrating with Google Sheets for batch processing,
+and using Gemini’s multimodal capabilities to generate infographics from the same topic later.
